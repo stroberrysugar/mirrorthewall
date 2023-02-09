@@ -1,0 +1,141 @@
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  background-image: linear-gradient(to right, #131235, #6561F2);
+}
+
+div, input, a, button, textarea, ul, li {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 100%;
+  width: 1095px;
+  margin: 0 auto;
+}
+
+#reviews {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #EEE;
+  border-radius: 2px;
+  box-shadow: 0 1px 6px rgba(0,0,0,.1),0 1px 4px rgba(0,0,0,.1);
+  background-color: #fff;
+  min-height: 10px;
+  margin-bottom: 20px;
+}
+
+#reviews li {
+  border: 1px solid #EEE;
+  border-bottom: none;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+input[type="text"],
+textarea {
+  border: 1px solid #EEE;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 6px rgba(0,0,0,.1),0 1px 4px rgba(0,0,0,.1);
+}
+
+textarea {
+  min-height: 100px;
+}
+
+.header {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.header h1,
+.header h4 {
+  font-weight: normal;
+  margin: 10px 0;
+  color: white;
+}
+
+
+.header img {
+  border-radius: 50%;
+  box-shadow: 0 1px 1px rgba(0,0,0,.1),0 1px 1px rgba(0,0,0,.1);
+}
+
+.delete,.edit
+{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 12px 12px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.delete:hover
+{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.edit:hover
+{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#email, #pass{
+  width: 505px;
+  height: 30px;
+  display: inline-block;
+}
+
+.passTxt, .emailTxt{
+  color: white;
+  display: inline-block;
+  width: 60px;
+  text-align: right;
+  padding-right: 455px;
+}
+
+
+.tab tr td 
+{
+  border: 1px solid black;
+  font-size: 15px;
+  padding: 8px;
+}
+
+.tab
+{
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0;
+}
+
+.table 
+{
+  border-radius: 3px;
+  border-color: #ffffff;
+  width: 100%;
+  background-color: #29285A;
+  height: 50px;
+  
+}
+
+.table th
+{
+  
+  border-collapse: collapse;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  padding-right: 20%;
+}
